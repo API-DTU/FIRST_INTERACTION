@@ -1,0 +1,33 @@
+package com.example.sushant.firstproject;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+
+    ImageView image1;
+    TextView tv1;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+
+        image1 = findViewById(R.id.im1);
+        tv1 = findViewById(R.id.tv1);
+        image1.setImageResource(R.drawable.sj);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
